@@ -8,6 +8,9 @@
     </dmn:allowedValues>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_8ADA855A-5F59-40C1-A61B-51A0D28BB9F0" name="Weather" isCollection="false">
+    <dmn:itemComponent id="_AD377373-EF89-4311-9A18-6F193EC7C1DA" name="location" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
     <dmn:itemComponent id="_D14E693C-28FC-422F-A153-CA4828046E1B" name="stormAlert" isCollection="false">
       <dmn:typeRef>boolean</dmn:typeRef>
     </dmn:itemComponent>
